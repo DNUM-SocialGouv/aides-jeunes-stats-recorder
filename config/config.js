@@ -4,7 +4,9 @@ module.exports = {
     host: process.env.HOST,
   },
   corsSettings: {
-    origin: process.env.CORS_DOMAIN || "mes-aides.1jeune1solution.beta.gouv.fr",
+    // Le simulateur appelle le stats-recorder depuis son propre domaine : CORS
+    // ne sert plus qu'à la lecture des statistiques par mes-aides-analytics.
+    origin: process.env.CORS_DOMAIN || "*",
   },
   mongo: {
     uri: process.env.MONGO_URL || "mongodb://localhost/ajs",
