@@ -24,19 +24,19 @@
   },
   "homepage": "https://github.com/betagouv/aides-jeunes-stats-recorder#readme",
   "dependencies": {
-    "body-parser": "^2.2.0",
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "mongoose": "^8.9.5"
+    "body-parser": "^2.4.0",
+    "cors": "^2.8.6",
+    "express": "^4.22.3",
+    "mongoose": "^8.24.6"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-prettier": "^5.5.4",
-    "jest": "^30.2.0",
-    "nodemon": "^3.1.10",
-    "prettier": "^3.6.2",
-    "supertest": "^7.1.4"
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.2",
+    "eslint-plugin-prettier": "^5.5.7",
+    "jest": "^30.5.2",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.10",
+    "supertest": "^7.3.1"
   },
   "jest": {
     "moduleNameMapper": {
