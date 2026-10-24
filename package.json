@@ -30,7 +30,7 @@
     "mongoose": "^8.24.6"
   },
   "devDependencies": {
-    "eslint": "^8.57.1",
+    "eslint": "^10.13.0",
     "eslint-config-prettier": "^9.1.2",
     "eslint-plugin-prettier": "^5.5.7",
     "jest": "^30.5.2",
